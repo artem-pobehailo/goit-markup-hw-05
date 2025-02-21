@@ -61,6 +61,80 @@
 
           <button class="button">Order Service</button>
         </div>
+
+        <div class="modal-overlay">
+          <div class="modal">
+            <button class="btn-overlay" type="button">
+              <svg class="icon-input-wrapper-icon-cross" width="8" height="8">
+                <use href="./images/icons.svg#icon-cross"></use>
+              </svg>
+            </button>
+            <div class="modal-login">
+              <form class="form" name="contacts" autocomplete="off">
+                <p class="text-modal-login">
+                  Leave your contacts and we will call you back
+                </p>
+
+                <fieldset class="fieldset-form">
+                  <label class="form-label"></label>
+                  Name
+                  <div class="input-icon">
+                    <input class="form-input" type="text" name="username" />
+                    <svg class="icon-input-wrapper" width="24" height="24">
+                      <use href="./images/icons.svg#icon-man"></use>
+                    </svg>
+                  </div>
+
+                  <label class="form-label"></label>
+                  Phone
+
+                  <div class="input-icon">
+                    <input class="form-input" type="tel" name="contact_tel" />
+                    <svg class="icon-input-wrapper" width="24" height="24">
+                      <use href="./images/icons.svg#icon-phone"></use>
+                    </svg>
+                  </div>
+
+                  <label class="form-label"></label>
+                  Email
+                  <div class="input-icon">
+                    <input class="form-input" type="email" name="email" />
+                    <svg class="icon-input-wrapper" width="24" height="24">
+                      <use href="./images/icons.svg#icon-convert"></use>
+                    </svg>
+                  </div>
+
+                  <label class="form-label">
+                    Comment
+                    <textarea
+                      class="form-input-textarea"
+                      name="topic"
+                      rows="5"
+                      placeholder="Text input"
+                    ></textarea>
+                  </label>
+                </fieldset>
+
+                <fieldset class="fieldset">
+                  <label class="form-checkbox">
+                    <input
+                      type="checkbox"
+                      name="policy"
+                      value="policy"
+                      checked
+                    />
+                    <span class="checkbox-text">
+                      I accept the terms and conditions of the
+                      <span class="checkbox-span"> Privacy Policy</span>
+                    </span>
+                  </label>
+                </fieldset>
+
+                <button class="form-button" type="submit">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
       </section>
 
       <!-- #endregion business -->
@@ -446,6 +520,7 @@
 
       <!-- #endregion Our Portfolio -->
     </main>
+
     <footer class="footer">
       <div class="container">
         <div class="footer-div">
@@ -490,6 +565,28 @@
               </a>
             </li>
           </ul>
+        </div>
+
+        <div class="footer-login">
+          <p class="footer-login-text">Subscribe</p>
+          <form class="login-form">
+            <label class="footer-label">
+              <input
+                class="footer-input"
+                type="email"
+                name="user_email"
+                placeholder="E-mail"
+              />
+            </label>
+
+            <button class="footer-utton" type="submit">
+              Subscribe
+
+              <svg class="icon-footer" width="24" height="20">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
