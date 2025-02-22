@@ -525,13 +525,12 @@
           </svg>
         </button>
         <div class="modal-login">
+          <p class="text-modal-login">
+            Leave your contacts and we will call you back
+          </p>
           <form class="form" name="contacts" autocomplete="off">
-            <p class="text-modal-login">
-              Leave your contacts and we will call you back
-            </p>
-
-            <fieldset class="fieldset-form">
-              <label class="form-label"></label>
+            <div class="fieldset-form">
+              <label class="form-label" for="username"></label>
               Name
               <div class="input-icon">
                 <input class="form-input" type="text" name="username" />
@@ -568,9 +567,9 @@
                   placeholder="Text input"
                 ></textarea>
               </label>
-            </fieldset>
+            </в>
 
-            <fieldset class="fieldset">
+            <div class="fieldset">
               <label class="form-checkbox">
                 <input type="checkbox" name="policy" value="policy" checked />
                 <span class="checkbox-text">
@@ -578,7 +577,7 @@
                   <span class="checkbox-span"> Privacy Policy</span>
                 </span>
               </label>
-            </fieldset>
+            </div>
 
             <button class="form-button" type="submit">Send</button>
           </form>
