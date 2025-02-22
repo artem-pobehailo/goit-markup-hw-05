@@ -567,24 +567,29 @@
             </div>
           </div>
 
-          <div class="fieldset-form">
-            <label class="form-label" for="topic"> Comment</label>
+          <div class="fieldset-form-textarea">
+            <label class="form-label" for="user-comment"> Comment</label>
             <textarea
               class="form-input-textarea"
-              name="topic"
+              id="user-comment"
+              name="user-comment"
               rows="5"
-              id="topic"
               placeholder="Text input"
             ></textarea>
           </div>
 
           <div class="fieldset">
-            <label class="form-checkbox">
-              <input type="checkbox" name="policy" value="policy" checked />
-              <span class="checkbox-text">
-                I accept the terms and conditions of the
-                <span class="checkbox-span"> Privacy Policy</span>
-              </span>
+            <input
+              type="checkbox"
+              id="user-privacy"
+              name="user-privacy"
+              value="true"
+              checked
+              class="fieldset-imput visually-hidden"
+            />
+            <label class="form-checkbox" for="user-privacy">
+              I accept the terms and conditions of the
+              <span class="checkbox-span"> Privacy Policy</span>
             </label>
           </div>
 
