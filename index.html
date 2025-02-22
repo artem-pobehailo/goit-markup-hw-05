@@ -528,21 +528,26 @@
           Leave your contacts and we will call you back
         </p>
 
-        <form class="form" name="contacts" autocomplete="off">
+        <form class="form" name="contacts">
           <div class="fieldset-form">
-            <label class="form-label" for="username">Name</label>
+            <label class="form-label" for="user-name">Name</label>
 
             <div class="input-icon">
-              <input class="form-input" type="text" name="username" />
+              <input
+                class="form-input"
+                id="user-name"
+                type="text"
+                name="user-name"
+              />
               <svg class="icon-input-wrapper" width="24" height="24">
                 <use href="./images/icons.svg#icon-man"></use>
               </svg>
             </div>
 
-            <label class="form-label" for="contact_tel">Phone</label>
+            <label class="form-label" for="phone">Phone</label>
 
             <div class="input-icon">
-              <input class="form-input" type="tel" name="contact_tel" />
+              <input class="form-input" id="phone" type="tel" name="phone" />
               <svg class="icon-input-wrapper" width="24" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
@@ -551,7 +556,7 @@
             <label class="form-label" for="email">Email</label>
 
             <div class="input-icon">
-              <input class="form-input" type="email" name="email" />
+              <input class="form-input" id="email" type="email" name="email" />
               <svg class="icon-input-wrapper" width="24" height="24">
                 <use href="./images/icons.svg#icon-convert"></use>
               </svg>
