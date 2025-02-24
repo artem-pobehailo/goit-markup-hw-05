@@ -528,6 +528,9 @@ button {
 .footer-input:hover {
   background-color: #31d0aa;
 }
+.icon {
+  fill: #fff;
+}
 .icon-footer {
   fill: #fff;
   margin-left: 16px;
